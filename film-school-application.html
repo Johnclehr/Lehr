@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Film School Application Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .form-section {
+            margin-bottom: 20px;
+        }
+        .form-field {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+        }
+        .form-label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Film School Application</h1>
+    
+    <div class="form-section">
+        <label class="form-label">Your actual name:</label>
+        <input type="text" class="form-field" name="actual_name">
+    </div>
+
+    <h2>The following should be answered by your character</h2>
+    
+    <div class="form-section">
+        <label class="form-label">Name:</label>
+        <input type="text" class="form-field" name="character_name">
+        
+        <label class="form-label">Hometown:</label>
+        <input type="text" class="form-field" name="hometown">
+    </div>
+
+    <div class="form-section">
+        <label class="form-label">When did you realize you wanted to make films?</label>
+        <textarea class="form-field" name="film_realization" rows="4"></textarea>
+
+        <label class="form-label">What unique perspective do you bring to filmmaking?</label>
+        <textarea class="form-field" name="unique_perspective" rows="4"></textarea>
+
+        <label class="form-label">What film genre most interests you?</label>
+        <input type="text" class="form-field" name="preferred_genre">
+
+        <label class="form-label">What films or filmmakers inspire you?</label>
+        <textarea class="form-field" name="inspirations" rows="4"></textarea>
+
+        <label class="form-label">What is your preferred job on a film set and why?</label>
+        <textarea class="form-field" name="preferred_film_role" rows="4"></textarea>
+
+        <label class="form-label">Describe a story you're passionate about telling through film</label>
+        <textarea class="form-field" name="story_passion" rows="6"></textarea>
+    </div>
+</body>
+</html>
